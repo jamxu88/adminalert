@@ -23,4 +23,4 @@ client.on("message", (message) => {
     console.log("Pinged");
 	}
 });
-client.login("NDk5MDMxNzI1OTU2MTM2OTgw.Dp2XOQ.Ec3P_hg9Ymjv-fNP_dkAiZW-2-g");
+client.login(process.env.BOT_TOKEN);
