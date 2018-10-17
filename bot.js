@@ -15,6 +15,8 @@ client.on("message", (message) => {
     let celery = members.find('id', '204664162729590793');
     jam.send('Alert! A user needs you.');
     gold.send('Alert! A user needs you.');
+    celery.send('Alert! A user needs you.');
+    spig.send('Alert! A user needs you.');
     console.log("Admin Alert!");
     message.channel.send("An admin has been alerted.");	
   }else
